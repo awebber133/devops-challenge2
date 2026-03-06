@@ -1,5 +1,5 @@
 image:
-  repository: <node-app ecr repository uri>
+  repository: 238845559349.dkr.ecr.us-east-2.amazonaws.com/node-app-repository
   pullPolicy: IfNotPresent
 
 service:
