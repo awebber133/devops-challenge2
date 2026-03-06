@@ -1,0 +1,40 @@
+{
+  "version": 4,
+  "terraform_version": "1.14.3",
+  "serial": 296,
+  "lineage": "b5b9858f-9e8b-c569-7cb7-7066fb6a5297",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_internet_gateway",
+      "name": "main",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-2:238845559349:internet-gateway/igw-0e41dee09cb3cf2d1",
+            "id": "igw-0e41dee09cb3cf2d1",
+            "owner_id": "238845559349",
+            "tags": {
+              "Name": "sunrise-igw"
+            },
+            "tags_all": {
+              "Name": "sunrise-igw"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-0dc0906163ae0ac01"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_vpc.main"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
